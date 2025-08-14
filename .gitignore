@@ -1,0 +1,68 @@
+# --------------------
+# Python
+# --------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dylib
+*.dll
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# --------------------
+# OS / Editor files
+# --------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# --------------------
+# Logs / Outputs
+# --------------------
+logs/
+*.log
+*.out
+*.err
+
+# --------------------
+# Data & Models
+# --------------------
+data/*
+!data/.gitkeep
+checkpoints/
+weights/
+models/
+*.pth
+*.pt
+*.h5
+*.ckpt
+*.npz
+*.npy
+
+# --------------------
+# Experiment tracking
+# --------------------
+wandb/
+mlruns/
+experiments/results/*
+!experiments/results/.gitkeep
+
+# --------------------
+# Temporary / Cache
+# --------------------
+.cache/
+tmp/
+temp/
